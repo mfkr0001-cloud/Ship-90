@@ -1,0 +1,35 @@
+{
+  "geode": "v5.0.0",
+  "gd": {
+    "android": "2.2081"
+  },
+  "id": "ship90.physics",
+  "name": "Ship 90",
+  "version": "v1.0.0",
+  "developer": "Ship90",
+  "description": "Experimental ship control tuning for Geometry Dash Android 2.2081.",
+  "settings": {
+    "enabled": {
+      "name": "Enable Ship 90",
+      "description": "Enable the experimental ship tuning hook.",
+      "type": "bool",
+      "default": true
+    },
+    "gravity_scale": {
+      "name": "Gravity scale",
+      "description": "Experimental multiplier. 1.0 keeps the game's original gravity.",
+      "type": "float",
+      "default": 1.0,
+      "min": 0.5,
+      "max": 1.5
+    },
+    "thrust_scale": {
+      "name": "Thrust scale",
+      "description": "Experimental multiplier. 1.0 keeps the game's original thrust.",
+      "type": "float",
+      "default": 1.0,
+      "min": 0.5,
+      "max": 1.5
+    }
+  }
+}
